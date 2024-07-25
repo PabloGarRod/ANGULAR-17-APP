@@ -3,3 +3,9 @@ h1 {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #09f;
 }
+
+div {
+  max-width: 500px;
+  font-size: 32px;
+  margin: 0 auto;
+}

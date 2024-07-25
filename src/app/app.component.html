@@ -1,3 +1,46 @@
-<app-user />
+<div>
+  <article>
+    <h1>¿Qué me parece Angular?</h1>
+    <p>
+      Angular es una plataforma y un framework para construir aplicaciones web
+      de una sola página (SPA) utilizando HTML, CSS y TypeScript. Desarrollado
+      por Google, Angular es uno de los frameworks de JavaScript más populares
+      en la actualidad, conocido por su robustez, rendimiento y capacidad para
+      construir aplicaciones complejas y escalables.
+    </p>
+    <p>
+      Angular fue lanzado originalmente como AngularJS en 2010. AngularJS
+      utilizaba JavaScript como su lenguaje principal y ofrecía características
+      como la vinculación de datos bidireccional y la inyección de dependencias.
+      En 2016, Google lanzó Angular 2, una reescritura completa del framework,
+      que utilizaba TypeScript en lugar de JavaScript y mejoraba
+      significativamente el rendimiento y la modularidad.
+    </p>
+    <p>
+      Algunas de las características más destacadas de Angular incluyen su
+      arquitectura basada en componentes, la inyección de dependencias, la
+      vinculación de datos, el uso de directivas para manipular el DOM, un
+      sistema de ruteo completo y herramientas potentes para la gestión y
+      validación de formularios. Además, Angular CLI es una herramienta de línea
+      de comandos que facilita la creación, compilación y prueba de aplicaciones
+      Angular.
+    </p>
+    <p>
+      Angular es una herramienta poderosa para desarrollar aplicaciones web
+      modernas. Con su arquitectura basada en componentes, sistema de inyección
+      de dependencias y una serie de características avanzadas, Angular facilita
+      la creación de aplicaciones robustas y escalables. Si estás interesado en
+      el desarrollo frontend, Angular es definitivamente una tecnología que vale
+      la pena aprender.
+    </p>
+  </article>
+  @defer(on viewport){
+  <app-comments></app-comments>
+  } @placeholder {
+  <p>Y la foto??</p>
+  } @loading (minimum 1s){
+  <p>Cargando comentarios</p>
+  }
+</div>
 
 <!-- <router-outlet /> -->
